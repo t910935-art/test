@@ -1,4 +1,6 @@
+import SkillCard from "#/components/SkillCard";
 import { createFileRoute } from "@tanstack/react-router";
+
 
 export const Route = createFileRoute("/")({ component: Home });
 
@@ -9,6 +11,11 @@ function Home() {
       <p className="mt-4 text-lg">
         Edit <code>src/routes/index.tsx</code> to get started.
       </p>
+      <ul>
+        <li>
+          <SkillCard/>
+        </li>
+      </ul>
     </div>
   );
 }
