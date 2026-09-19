@@ -13,7 +13,13 @@ function Home() {
       </p>
       <ul>
         <li>
-          <SkillCard/>
+          <SkillCard name="tanstak start"/>
+        </li>
+         <li>
+          <SkillCard name="tanstak start"/>
+        </li>
+         <li>
+          <SkillCard name="tanstak start"/>
         </li>
       </ul>
     </div>
